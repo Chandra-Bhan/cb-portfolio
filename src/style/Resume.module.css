@@ -1,0 +1,257 @@
+.resume_section_heading{
+    color: #f9004d;
+    letter-spacing: 2px;
+    line-height: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.resume_sec_head{
+    color: #3c3e41;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.resume_sec_header_div{
+    text-align: center;
+}
+.rs_sec_btn_div{
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+   box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+   font-size: 25px;
+   border-radius: 10px;
+
+}
+.resume_sec_btn{ 
+   color: rgb(50, 50, 50);
+   position: relative;
+   width: 50%;  
+   border: none;
+   outline: none;
+   padding: 27px 19px;
+   background-color: transparent;
+   transition: 0.9s;
+}
+.resume_sec_btn:hover{
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    color: #ff014f;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.resume_sec_btn:focus{
+    border: none;
+    outline: none;
+    color:#ff014f;
+}
+.resume_sec_head1{
+    color: #3c3e41;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.resume_card{
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    color: #3c3e41;
+    position: relative;
+    width: 500px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 10px;
+    border: none;
+    padding: 50px 50px;
+    outline: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.4s;
+}
+.resume_card:hover{
+    background: linear-gradient(145deg, #ff014f, #d11414);
+    color: white;
+    border: none;
+    top:-3px;
+}
+.resume_card_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.resume_card_img img{
+    width: 100%;
+    height: 100%;
+}
+.resume_card h4{
+    font-size: 25px;
+}
+.horizontal_line{
+    border: 0.1px rgb(230, 228, 228) solid;
+  width: 98%;
+}
+.resume_edu_card_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    gap:20px;
+    padding: 20px;
+}
+.card_edu_info{
+    width: 55%;
+}
+.edu_card_grad{
+    background-color: white;
+    color: #ff014f;
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    padding: 7px 20px;
+    border-radius: 6px;
+    position: relative;
+    font-weight: 400;
+    font-size: 17px;
+    bottom: 5px;
+    float: right;
+}
+.resume_card:hover .edu_card_grad{
+    background-color: #f9004d;
+    color: white;
+}
+
+.resume_skills_heading{
+    color: #f9004d;
+    letter-spacing: 2px;
+    line-height: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    margin-top: 60px;
+}
+.resume_skills_head_line{
+    color: #3c3e41;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.skill_sec_heading6{
+    color:#1e2125;
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    opacity: 0.9;
+    line-height: 1.25;
+    word-break: break-all;
+    font-family: "Montserrat", sans-serif;
+
+}
+.progress{
+    background: #dce1e4;
+    height: 10px;
+    font-size: 14px;
+    overflow: visible;
+    border-radius: 10px;
+    padding: 3px;
+    display: flex;
+}
+.progress_chart{
+    width: 35rem;
+}
+
+.resume_sec_btn:focus .progress_bar{
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+    animation-name: fadeInLeft;
+    transition: width .6s ease;
+}
+
+.progress_bar{
+    width: 95%;
+    visibility: visible;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+    animation-name: fadeInLeft;
+    background: linear-gradient(145deg,#fff 0%, #ff014f 100%);
+    overflow: visible;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    transition: width .6s ease;
+
+}
+@keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        transform: translate3d(-100%,0,0);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+.percent_label{
+    color:#3c3e41;
+    position: relative;
+    right: 35px;
+    top: -22px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2px;
+    opacity: 0.9;
+    visibility: visible;
+    animation-duration: 0.5s;
+    animation-delay: 0.3s;
+    animation-name: fadeInLeft;
+}
+.resume_skills_progress_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(35rem,1fr));
+    gap:30px;
+    padding: 40px;
+}
+.js_bar{
+    width: 85%;
+}
+.css_bar{
+    width: 80%;
+}
+.reactjs_bar{
+    width: 99%;
+}
+.bootstrap_bar{
+    width: 75%;
+}
+.jquery_bar{
+    width: 75%;
+}
+.redux_bar{
+    width: 80%;
+}
+.expressJS_bar{
+    width: 70%;
+}
+.mongodb_bar{
+    width: 70%;
+}
+.oops_bar{
+    width: 90%;
+}

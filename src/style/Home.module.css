@@ -1,0 +1,110 @@
+.home_container{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 175px; */
+    padding-top: 220px;
+
+}
+.intro_div{
+    width: 55%;
+}
+.image_div{
+    width: 35%;
+}
+.welcome_para{
+    color:#3c3e41;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+.name_intro_h1{
+    color: #1e2125;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 75px;
+    margin-bottom: 22px;
+    font-family: "Montserrat", sans-serif;
+    word-break: break-all;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.name_span{
+    color: #ff014f;
+}
+.brief_intro_para{
+    color:#3c3e41;
+    font-size:16px;
+    line-height: 30px;
+    padding-right:16%;
+    opacity:0.9;
+    margin-bottom: 50px;
+}
+.find_me_link{
+    width:60px;
+    height: 60px;
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+   box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+   padding: 30px 20px 20px 20px;
+   line-height: 60px;
+   text-align: center;
+   font-size: 14px;
+   letter-spacing: 2px;
+   border-radius: 6px;
+   transition: 0.9s;
+   color: #3c3e41;
+   margin-left: 1px;
+    position: relative;
+}
+.find_me_link:hover{
+    background: linear-gradient(145deg, #ff014f, #d11414);
+    color: white;
+    top:-4px;
+}
+.find_with_para{
+    color: #1e2125;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.image_back{
+    width: 100%;
+    height: 80%;
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    position: absolute;
+    z-index: -1;
+    content: "";
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    border-radius: 6px;
+ 
+}
+.find_me_div_contain{
+    margin-top: 35px;
+}
+.innner_img_div img{
+    border: 0;
+    vertical-align: middle;
+    width: 27rem;
+    /* max-width: 100%; */
+    top:-10px;
+    height: 38rem;
+    overflow: clip;
+
+}
+.innner_img_div{
+    text-align: center;
+}
+.image_div{
+    position: relative;
+    z-index: 2;
+    top:-80px;
+    max-height: 50rem;
+    max-width: 30rem;
+}

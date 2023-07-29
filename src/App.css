@@ -1,0 +1,16 @@
+#root {
+  
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main_content{
+  width:85%;
+  margin:auto;
+}
+.hr_line{
+  margin-top: 100px;
+  /* margin-bottom: 100px; */
+  border: 0.1px rgb(230, 228, 228) solid;
+  width: 98%;
+}

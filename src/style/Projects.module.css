@@ -1,0 +1,104 @@
+.project_section_heading{
+    color: #f9004d;
+    letter-spacing: 2px;
+    line-height: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.Project_sec_head{
+    color: #3c3e41;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+}
+.project_sec_header_div{
+    text-align: center;
+}
+.pcards_container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(550px,1fr));
+    gap:20px;
+}
+.pcard{
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    width: 550px;
+    height: 744px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.4s;
+    border-radius: 10px;
+    color: #6a6d70;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 30px;
+    
+}
+.center{
+    text-align: start;
+    width: 100%;
+    margin-left: 40px;
+    font-size: 16px;
+}
+.pcard img{
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.pcard img:hover{
+    transform: scale(1.1);
+}
+.pcard_img_div1{
+    width: 100%;
+    height: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.project_link_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly !important;
+    margin-top: 20px;
+}
+.project_link{
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    color: #ff014f;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    width: 25%;
+    text-align: center;
+    font-weight: 700;
+    padding: 17px 30px;
+    transition: 0.4s;
+    
+    text-transform: uppercase;
+}
+.pcard:hover{
+    background: linear-gradient(145deg, #ff014f, #d11414);
+    color: white;
+    border: none;
+    top:-3px;
+}
+.pcard:hover .pro_nam{
+    color:white;
+}
+.project_link:hover{
+    background: linear-gradient(145deg, #ff014f, #d11414);
+    color: white;
+    border: none;
+    top:-3px;
+}
