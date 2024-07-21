@@ -107,3 +107,66 @@ nav{
     /* Replace with your preferred active link color */
     /* Add any other styles you want to apply to the active link */
   }
+
+  .hamburger{
+    display: none;
+    
+  }
+
+  .navItems:target{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
+    gap:20px;
+  }
+
+
+
+
+  @media screen and (max-width:937px){
+.hamburger{
+    display: inline;
+    margin-right: 5%;
+}
+.navItems{
+    display: none;
+    background:  linear-gradient(145deg, #e2e8ec, #ffffff);
+   box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+
+}
+.show{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
+    gap:20px; */
+    display: flex;
+    flex-direction: column;
+    /* position: relative;
+    right: 10px;
+    left: -14rem;
+    top: 10rem; */
+    margin-top: 30rem;
+    margin-left: -95%;
+    /* margin-right: -20rem; */
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+    
+  }
+  .hide{
+    display: none;
+  }
+.navItems li{
+    width: fit-content;
+    height: 4rem;
+    margin-top: -10px;
+    padding-top: -6rem;
+}
+
+.navItems li a{
+    margin: 0;
+    font-size: 11px;
+}
+.cv_dwn{
+    padding: .6rem;
+    font-size: 10px !important;
+}
+
+  }

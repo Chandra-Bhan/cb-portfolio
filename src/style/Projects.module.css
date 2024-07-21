@@ -102,3 +102,41 @@
     border: none;
     top:-3px;
 }
+
+@media screen and (max-width:1286px){
+    .pcard{
+    width: 100%;
+    height: auto;
+    margin-left: -2rem;
+    }
+}
+@media screen and (max-width:655px){
+    .pcard{
+        width: 80%;
+        }
+        .Project_sec_head{
+            font-size: 40px;
+        }
+        .project_link{
+            font-size: 8px;
+        }
+        h3{
+            font-size: 13px;
+        }
+}
+@media screen and (max-width:531px){
+    .pcard{
+        width: 70%;
+        }
+
+}
+@media screen and (max-width:469px){
+    .pcard{
+        width: 60%;
+        }
+}
+@media screen and (max-width:411px){
+    .pcard{
+        width: 48%;
+        }
+}

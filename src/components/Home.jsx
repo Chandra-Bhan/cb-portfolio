@@ -59,7 +59,10 @@ function Home() {
       <div className={style.image_div}>
         <div className={style.image_back}></div>
         <div className={style.innner_img_div}>
-          <img src="./Chandrabhan_home_Sec_img.png" />
+          <img
+            className={style.innner_img_cb}
+            src="./Chandrabhan_home_Sec_img.png"
+          />
           {/* <img src="./Chandrabhan_trans_img.png" /> */}
         </div>
       </div>

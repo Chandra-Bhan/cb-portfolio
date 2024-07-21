@@ -53,3 +53,27 @@
 .card h3{
     font-size: 20px;
 }
+
+@media screen and (max-width:937px){
+    .card{
+        width: 350px;
+        height: 344px;   
+     }
+}
+
+@media screen and (max-width:870px){
+    .card{
+        width: 100%;
+        height: auto; 
+        padding-bottom: 3rem;  
+     }
+     .features_head_line{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:430px){
+    .card{
+        width: 80%;
+     }
+
+}

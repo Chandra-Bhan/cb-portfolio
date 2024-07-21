@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import style from "../style/Navbar.module.css";
 import { Link, Element } from "react-scroll";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 function Navbar() {
   const [activeLink, setActiveLink] = useState("home");
+  const [hamtrigger, setHamTrigger] = useState(false);
 
   const handleSetActive = (to) => {
     setActiveLink(to);
@@ -47,7 +49,10 @@ function Navbar() {
           folio<b>.</b>
         </div>
       </div>
-      <ul className={style.navItems}>
+      <ul
+        className={`${style.navItems} ${hamtrigger ? style.show : style.hide}`}
+        id="links_ul"
+      >
         <li>
           <Link
             to="home"
@@ -110,10 +115,17 @@ function Navbar() {
             href="https://drive.google.com/drive/folders/10yclMr5YR6o4dvY2JL2RihnwidS95hj8?usp=drive_link"
             className={style.cv_dwn}
           >
-            DOWNLOAD CV
+            DOWNLOAD_CV
           </a>
         </li>
       </ul>
+
+      <span
+        className={`${style.hamburger} `}
+        onClick={() => setHamTrigger(!hamtrigger)}
+      >
+        <RxHamburgerMenu color="#ff014f" fontSize="35px" />
+      </span>
     </nav>
   );
 }

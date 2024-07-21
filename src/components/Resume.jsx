@@ -41,7 +41,9 @@ function Resume() {
                 <img src="https://www.yourlegalcareercoach.com/wp-content/uploads/2022/02/channels4_profile.jpg" />
               </div>
               <div className={style.card_edu_info}>
-                <h4>Trained as Front-end Developer</h4>
+                <h4 className={style.edu_name}>
+                  Trained as Front-end Developer
+                </h4>
                 <hr className={style.horizontal_line} />
                 <p>FunctionUp (Feb/2023 - June/2023)</p>
               </div>
@@ -53,8 +55,9 @@ function Resume() {
                 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/MCU_logo.svg/1200px-MCU_logo.svg.png" />
               </div>
               <div className={style.card_edu_info}>
-                <h4>
-                  B. C. A. <span className={style.edu_card_grad}>8.58/10</span>
+                <h4 className={style.edu_name}>
+                  <span>B. C. A. </span>
+                  <span className={style.edu_card_grad}>8.58/10</span>
                 </h4>
                 <hr className={style.horizontal_line} />
                 <p>
@@ -70,8 +73,8 @@ function Resume() {
                 <img src="https://pbs.twimg.com/profile_images/1626848996416446468/1ZcFoLD5_400x400.jpg" />
               </div>
               <div className={style.card_edu_info}>
-                <h4>
-                  Intermediate{" "}
+                <h4 className={style.edu_name}>
+                  <span>Intermediate </span>
                   <span className={style.edu_card_grad}>60.4%</span>
                 </h4>
                 <hr className={style.horizontal_line} />
@@ -85,8 +88,8 @@ function Resume() {
                 <img src="https://pbs.twimg.com/profile_images/1626848996416446468/1ZcFoLD5_400x400.jpg" />
               </div>
               <div className={style.card_edu_info}>
-                <h4>
-                  High School{" "}
+                <h4 className={style.edu_name}>
+                  <span>High School </span>
                   <span className={style.edu_card_grad}>66.67%</span>
                 </h4>
                 <hr className={style.horizontal_line} />
@@ -157,7 +160,7 @@ function Resume() {
             <h6 className={style.skill_sec_heading6}>Redux</h6>
             <div className={style.progress}>
               <div className={`${style.progress_bar} ${style.redux_bar}`}></div>
-              <span className={style.percent_label}>80%%</span>
+              <span className={style.percent_label}>80%</span>
             </div>
           </div>
           {/* Skill_JS section 2 */}

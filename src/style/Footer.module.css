@@ -34,3 +34,12 @@
     text-align: center;
     font-size: 1.5rem;
 }
+
+@media screen and (max-width:962px){
+.footer_sec_head{
+    font-size: 30px;
+}
+.contactInfo p{
+    font-size: 15px;
+}
+}

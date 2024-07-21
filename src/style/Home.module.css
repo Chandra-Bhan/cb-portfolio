@@ -91,10 +91,11 @@
 .innner_img_div img{
     border: 0;
     vertical-align: middle;
-    width: 27rem;
+    /* width: 27rem; */
+    width: 100%;
     /* max-width: 100%; */
     top:-10px;
-    height: 38rem;
+    height: auto;
     overflow: clip;
 
 }
@@ -107,4 +108,52 @@
     top:-80px;
     max-height: 50rem;
     max-width: 30rem;
+}
+
+@media screen and (max-width:937px){
+    .home_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .intro_div{
+        width: 100%;
+    }
+    .image_div{
+        width: 100%;
+        margin: auto;
+        margin-top: 25%;
+    }
+    .innner_img_div img{
+        width: 100%;
+        height: auto;
+
+    }
+}
+@media screen and (max-width:620px){
+.name_intro_h1{
+    font-size: 3rem;
+}
+}
+@media screen and (max-width:468px){
+.name_intro_h1{
+    font-size: 2.5rem;
+    line-height: 55px;
+
+}
+.brief_intro_para{
+    line-height: 25px;
+
+}
+}
+@media screen and (max-width:369px){
+.name_intro_h1{
+    font-size: 2rem;
+    line-height: 45px;
+
+}
+.brief_intro_para{
+    font-size: 12px;
+    line-height: 20px;
+
+}
 }
